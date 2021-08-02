@@ -1,0 +1,7 @@
+policy = "../policy"
+data = "../data"
+fail-on-warn = false
+ignore = ".*.cue|.*.tmp"
+output = "json"
+
+namespace = "main"
