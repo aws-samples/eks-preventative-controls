@@ -4,6 +4,8 @@
     "@aws-cdk/core:enableStackNameDuplicates": "true",
     "aws-cdk:enableDiffNoFail": "true",
     "@aws-cdk/core:stackRelativeExports": "true",
-    "@aws-cdk/core:newStyleStackSynthesis": true
+    "@aws-cdk/core:newStyleStackSynthesis": true,
+    "cluster-name": "cdk-auto-k8s-controls",
+    "vpc-id": "vpc-0cc19710c1260b111"
   }
 }
