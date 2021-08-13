@@ -6,6 +6,6 @@
     "@aws-cdk/core:stackRelativeExports": "true",
     "@aws-cdk/core:newStyleStackSynthesis": true,
     "cluster-name": "cdk-auto-k8s-controls",
-    "vpc-id": "vpc-0cc19710c1260b111"
+    "vpc-id": "vpc-0xx12345x1230x123"
   }
 }
