@@ -1,11 +1,8 @@
-## My Project
+## EKS Preventative Controls
 
-TODO: Fill this README out!
+This is a project of TypeScript development with CDK for setting up a CodePipeline with EKS preventative control checks via Conftest.
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+![High Level Architecture](https://github.com/aws-samples/eks-preventative-controls/blob/main/Solution_Overview.png?raw=true)
 
 ## Security
 
