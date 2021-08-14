@@ -38,7 +38,7 @@ export class CdkEksStack extends cdk.Stack {
 
     // Create a EKS cluster with a default managed worker node group.
     const cluster = new eks.Cluster(this, 'my-cluster', {
-      version: eks.KubernetesVersion.V1_20,
+      version: eks.KubernetesVersion.V1_21,
       mastersRole: masterRole,
       clusterName: props.clusterName,
       outputClusterName: true,
