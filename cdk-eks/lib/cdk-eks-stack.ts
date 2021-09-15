@@ -31,15 +31,15 @@ export class CdkEksStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props: CdkEksStackProps) {
     super(scope, id, props);
 
-    // cluster master role
-    const masterRole = new iam.Role(this, 'cluster-master-role', {
+    // cluster owner role
+    const ownerRole = new iam.Role(this, 'cluster-owner-role', {
       assumedBy: new iam.AccountRootPrincipal(),
     });
 
     // Create a EKS cluster with a default managed worker node group.
     const cluster = new eks.Cluster(this, 'my-cluster', {
       version: eks.KubernetesVersion.V1_21,
-      mastersRole: masterRole,
+      mastersRole: ownerRole,
       clusterName: props.clusterName,
       outputClusterName: true,
       endpointAccess: eks.EndpointAccess.PUBLIC,
@@ -47,7 +47,7 @@ export class CdkEksStack extends cdk.Stack {
         props.vpcId == undefined
                   ? undefined
                   : ec2.Vpc.fromLookup(this, 'vpc', { vpcId: props?.vpcId! }),
-      vpcSubnets: [{ subnetType: ec2.SubnetType.PRIVATE }], 
+      vpcSubnets: [{ subnetType: ec2.SubnetType.PRIVATE_WITH_NAT }], 
     });
     
     // Apply K8S manifest files under the ../../k8s-manifests folder. 
