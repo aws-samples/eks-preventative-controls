@@ -6,6 +6,7 @@ This is a project of TypeScript development with CDK for setting up a CodePipeli
 
 ### Deployment Steps
 
+
 At the high level, to deploy the solution, we need to conduct the following steps: 
 
 1. create a new empty AWS CodeCommit repo and git clone that empty repo to your development terminal. Please record the repo name which will be used in later step. In our example, we named the repo as “cdk_auto_k8s_controls”.
