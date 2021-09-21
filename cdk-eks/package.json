@@ -24,8 +24,10 @@
     "@aws-cdk/aws-eks": "^1.122.0",
     "@aws-cdk/core": "^1.122.0",
     "@types/js-yaml": "^3.12.5",
-    "aws-cdk": "^1.122.0",
+    "aws-cdk": "^1.20.0",
     "js-yaml": "^3.14.0",
+    "node-notifier": "^10.0.0",
+    "set-value": "^4.1.0",
     "source-map-support": "^0.5.16"
   }
 }
