@@ -60,9 +60,9 @@ At the high level, to deploy the solution, we need to conduct the following step
 
 ## Contributors
 
-### Jasper Wang
+### Jasper Wang, Cloud Consultant
 
-### Deenadayaalan Thirugnanasambandam
+### Deenadayaalan Thirugnanasambandam, Principal Solutions Architect
 
 
 ## Security
