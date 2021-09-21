@@ -58,6 +58,13 @@ At the high level, to deploy the solution, we need to conduct the following step
 
 7. Finish. 
 
+## Contributors
+
+### Jasper Wang
+
+### Deenadayaalan Thirugnanasambandam
+
+
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
