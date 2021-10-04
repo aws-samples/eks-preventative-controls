@@ -50,6 +50,7 @@ export class CdkPipelineStack extends cdk.Stack {
     const sourceAction = new codepipeline_actions.CodeCommitSourceAction({
       actionName: 'CodeCommit',
       repository: repo,
+      branch: 'main',
       output: sourceOutput,
     });
 
