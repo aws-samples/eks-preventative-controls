@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@aws-cdk/aws-ec2": "^1.181.1",
-    "@aws-cdk/aws-eks": "^1.181.1",
+    "@aws-cdk/aws-eks": "^1.202.0",
     "@aws-cdk/core": "^1.181.1",
     "@types/js-yaml": "^3.12.5",
     "ansi-regex": "^6.0.1",
